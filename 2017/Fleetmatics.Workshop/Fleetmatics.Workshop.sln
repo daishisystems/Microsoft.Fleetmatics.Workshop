@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "Fleetmatics.Workshop.Service", "Fleetmatics.Workshop.Service\Fleetmatics.Workshop.Service.sfproj", "{0DC51B04-A61F-4F2B-8D9E-425918B0EA56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fleetmatics.Workshop.Service.Service", "Fleetmatics.Workshop.Service.Service\Fleetmatics.Workshop.Service.Service.csproj", "{E48636BD-095A-4845-99DA-757E1F9D57DC}"
+EndProject
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "Fleetmatics.Workshop.Microservice", "Fleetmatics.Workshop.Microservice\Fleetmatics.Workshop.Microservice.sfproj", "{C26BC4BB-D33E-4B5E-B54E-4C38622E675B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fleetmatics.Workshop.Microservice.Microservice", "Fleetmatics.Workshop.Microservice.Microservice\Fleetmatics.Workshop.Microservice.Microservice.csproj", "{F19AC4C4-F91D-4B6E-82A3-2A2260ED4665}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fleetmatics.Workshop.Microservice.Microservice.Interfaces", "Fleetmatics.Workshop.Microservice.Microservice.Interfaces\Fleetmatics.Workshop.Microservice.Microservice.Interfaces.csproj", "{DEEAE7FF-FBF4-40E0-9216-F823771D8654}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DC51B04-A61F-4F2B-8D9E-425918B0EA56}.Debug|x64.ActiveCfg = Debug|x64
+		{0DC51B04-A61F-4F2B-8D9E-425918B0EA56}.Debug|x64.Build.0 = Debug|x64
+		{0DC51B04-A61F-4F2B-8D9E-425918B0EA56}.Debug|x64.Deploy.0 = Debug|x64
+		{0DC51B04-A61F-4F2B-8D9E-425918B0EA56}.Release|x64.ActiveCfg = Release|x64
+		{0DC51B04-A61F-4F2B-8D9E-425918B0EA56}.Release|x64.Build.0 = Release|x64
+		{0DC51B04-A61F-4F2B-8D9E-425918B0EA56}.Release|x64.Deploy.0 = Release|x64
+		{E48636BD-095A-4845-99DA-757E1F9D57DC}.Debug|x64.ActiveCfg = Debug|x64
+		{E48636BD-095A-4845-99DA-757E1F9D57DC}.Debug|x64.Build.0 = Debug|x64
+		{E48636BD-095A-4845-99DA-757E1F9D57DC}.Release|x64.ActiveCfg = Release|x64
+		{E48636BD-095A-4845-99DA-757E1F9D57DC}.Release|x64.Build.0 = Release|x64
+		{C26BC4BB-D33E-4B5E-B54E-4C38622E675B}.Debug|x64.ActiveCfg = Debug|x64
+		{C26BC4BB-D33E-4B5E-B54E-4C38622E675B}.Debug|x64.Build.0 = Debug|x64
+		{C26BC4BB-D33E-4B5E-B54E-4C38622E675B}.Debug|x64.Deploy.0 = Debug|x64
+		{C26BC4BB-D33E-4B5E-B54E-4C38622E675B}.Release|x64.ActiveCfg = Release|x64
+		{C26BC4BB-D33E-4B5E-B54E-4C38622E675B}.Release|x64.Build.0 = Release|x64
+		{C26BC4BB-D33E-4B5E-B54E-4C38622E675B}.Release|x64.Deploy.0 = Release|x64
+		{F19AC4C4-F91D-4B6E-82A3-2A2260ED4665}.Debug|x64.ActiveCfg = Debug|x64
+		{F19AC4C4-F91D-4B6E-82A3-2A2260ED4665}.Debug|x64.Build.0 = Debug|x64
+		{F19AC4C4-F91D-4B6E-82A3-2A2260ED4665}.Release|x64.ActiveCfg = Release|x64
+		{F19AC4C4-F91D-4B6E-82A3-2A2260ED4665}.Release|x64.Build.0 = Release|x64
+		{DEEAE7FF-FBF4-40E0-9216-F823771D8654}.Debug|x64.ActiveCfg = Debug|x64
+		{DEEAE7FF-FBF4-40E0-9216-F823771D8654}.Debug|x64.Build.0 = Debug|x64
+		{DEEAE7FF-FBF4-40E0-9216-F823771D8654}.Release|x64.ActiveCfg = Release|x64
+		{DEEAE7FF-FBF4-40E0-9216-F823771D8654}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
